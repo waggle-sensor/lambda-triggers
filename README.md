@@ -8,7 +8,7 @@ Triggered actions are an important part of the Sage architecture.  The SLT provi
 The SLT system will use token-based authentication, such as the OAuth, so programmers can wire up complex workflows and lambda functions can push configuration changes to nodes via the Sage Edge Scheduler.  
 
 ### Use Cases:
-#### Scientist writes a To-Edge trigger:
+#### User writes a To-Edge trigger:
 * A Scientist gathers and fuses several data streams together, some from external data sources such as weather predictions, and some from Sage Beehive into an external, independently managed code.
 * Based on the computation, the code connects to the SES and presents an auth token
 * The code then triggers a “to-Edge” configuration change via an API
