@@ -1,5 +1,5 @@
 # Sage Lambda Triggers (SLT)
-#### Lead(s): [Joe Swantek](mailto:joseph.swantek@northwestern.edu)
+#### Lead(s): Joe Swantek
 
 ### Overview:
 Triggered actions are an important part of the Sage architecture.  The SLT provides a framework for two kinds of triggers: From-Edge and To-Edge.  A value or message from a Waggle edge node, delivered to Beehive, can be used to trigger a lambda function -- for example, if high wind velocity is detected, a function could be triggered to determine how to reconfigure sensors or launch a computation or send an alert.  Similarly, an HPC calculation or cloud-based data analysis could trigger an API call to the SES and send a notification to a Waggle edge node -- for example to request scheduling of new edge computations or reposition mobile assets.
